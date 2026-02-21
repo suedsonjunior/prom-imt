@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
 public class Idade { 
+   public static final int ANO_ATUAL = 2026;
  public static void main(String[] args) {
     System.out.println(" digite sua idade:");
     Scanner input = new Scanner(System.in);
-   
+    
     int idade = input.nextInt();
 
       if (idade >= 18) {
