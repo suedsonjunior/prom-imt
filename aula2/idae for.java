@@ -4,9 +4,11 @@ public class PesquisaIdade {
     public static scanner input = new Scanner (System.in);
     public static void main(String[] args) {
         int idade, somaIdades = 0, qtdPessoas = 0;
+        double media
        
         System.out.println("Digite a sua idade:");
         idade = input.nextInt();
+
         while (idade >= 0)  {
             qtdPessoas += 1;
             somaIdades += idade;
@@ -14,8 +16,8 @@ public class PesquisaIdade {
             System.out.println("Digite a sua idade (< 0 para sair): ");
             idade = input.nextInt();
         }
-        if (qtdPessoas != 0){
-            double media = (double) somaIdades / qtdPessoas;
+        if (qtdPessoas != 0){ 
+            media = (double) somaIdades / qtdPessoas;
             System.out.println(qtdPessoas + " pessoas participaram da pesquisa.");
             System.out.println("A idade média dos participantes foi de " + media + " anos.");
         } else {
@@ -25,4 +27,3 @@ public class PesquisaIdade {
     }
 }
 
-      
