@@ -1,0 +1,27 @@
+1
+Notebook Dell
+10
+3500.00
+Eletronicos
+2
+1
+Mouse Gamer
+20
+150.00
+Eletronicos
+5
+1
+Cadeira Office
+5
+800.00
+Moveis
+1
+1
+Mesa de Vidro
+2
+1200.00
+Moveis
+1
+2
+7
+0
